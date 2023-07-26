@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Puebliar</string>
+    <string name="resenahoteles">
+     You will find rooms from 80,000 COP with multiple
+         accommodations, kitchen and bathrooms.
+    </string>
+    <string name="resenares1">
+restaurant 1
+    </string>
+    <string name="direccion1">Address:1st Street, Santa Rosa de Osos </string>
+    <string name="resenares2">
+Restaurante 2
+    </string>
+    <string name="direccion2">Dirección: Calle 2, Santa Rosa de Osos </string>
+    <string name="opcion1">English</string>
+    <string name="opcion2">Spanish</string>
+    <string name="opcion3">Italian</string>
+    <string name="opcion4">About</string>
+</resources>

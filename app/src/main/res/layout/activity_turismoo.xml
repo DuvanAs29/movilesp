@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".turismoo">
+    <View
+        android:id="@+id/strip1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#FEDF00"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/strip2" />
+
+    <View
+        android:id="@+id/strip2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#CE1126"
+        app:layout_constraintTop_toBottomOf="@id/strip1"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <View
+        android:id="@+id/stripe1"
+        android:layout_width="4dp"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/stripe2"
+        android:layout_width="4dp"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/llSitio1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/llSitio2"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintHorizontal_bias="0.5">
+
+        <TextView
+            android:id="@+id/tvTitulo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plaza Simon Bolivar"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivIcono1"
+            android:layout_width="112px"
+            android:layout_height="112px"
+            android:src="@drawable/cuadrado"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/tvResena1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Es considerado el epicentro social y administrativo de Santa Rosa de Osos, puesto que allí están ubicados los edificios de mayor importancia del municipio tales como la Catedral y el Palacio Municipal.
+
+Además cuenta con un monumento al libertador Simón Bolívar y otro al poeta Porfirio Barba Jacob."
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/btnVerMas1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ver más" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSitio2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/llSitio1"
+        app:layout_constraintEnd_toStartOf="@+id/llSitio3"
+        app:layout_constraintHorizontal_bias="0.5">
+
+        <TextView
+            android:id="@+id/tvTitulo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Catedral Nuestra Señora del Rosario de Chiquinquirá"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivIcono2"
+            android:layout_width="112px"
+            android:layout_height="112px"
+            android:src="@drawable/catedral"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/tvResena2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ubicada a un costado del Parque Simón Bolívar se encuentra maravillosa Catedral, una obra del arquitecto Manuel Lopera Valencia"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/btnVerMas2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ver más" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSitio3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/llSitio2"
+        app:layout_constraintEnd_toStartOf="@+id/llSitio4"
+        app:layout_constraintHorizontal_bias="0.5">
+
+        <TextView
+            android:id="@+id/tvTitulo3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Parque Pedro Justo Berrío"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivIcono3"
+            android:layout_width="112px"
+            android:layout_height="112px"
+            android:src="@drawable/parque"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/tvResena3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Se trata de una plaza y un obelisco a la memoria del Gobernante Pedro Justo Berrío, conservando las mismas características de estructura, distribución espacial y diseño a lo largo del tiempo."
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/btnVerMas3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ver más" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSitio4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/llSitio3"
+        app:layout_constraintEnd_toStartOf="@+id/llSitio5"
+        app:layout_constraintHorizontal_bias="0.5">
+
+        <TextView
+            android:id="@+id/tvTitulo4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Parador Santa Rosa"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivIcono4"
+            android:layout_width="112px"
+            android:layout_height="112px"
+            android:src="@drawable/restaurante"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/tvResena4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Está caracterizado por ser un restaurante tradicional en el municipio y tener un reconocido pandequeso."
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/btnVerMas4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ver más" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSitio5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/llSitio4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5">
+
+        <TextView
+            android:id="@+id/tvTitulo5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cascadas de Oro Bajo"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivIcono5"
+            android:layout_width="112px"
+            android:layout_height="112px"
+            android:src="@drawable/cascada"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/tvResena5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atractivo netamente natural que conecta lo mejor del bosque y las corrientes de agua."
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/btnVerMas5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ver más" />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

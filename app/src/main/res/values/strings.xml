@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Puebliar</string>
+    <string name="resenahoteles">
+     Encontraras habitaciones desde 80000 COP con multiples
+        acomodaciones, cocina y baños.
+    </string>
+    <string name="resenares1">
+Restaurante 1
+    </string>
+    <string name="direccion1">Dirección: Calle 1, Santa Rosa de Osos </string>
+    <string name="resenares2">
+Restaurante 2
+    </string>
+    <string name="direccion2">Dirección: Calle 2, Santa Rosa de Osos </string>
+
+    <string name="opcion1">Ingles</string>
+    <string name="opcion2">Español</string>
+    <string name="opcion3">Italiano</string>
+    <string name="opcion4">Acerca de</string>
+
+</resources>

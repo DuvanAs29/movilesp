@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Puebliar</string>
+    <string name="resenahoteles">
+     Troverai camere da 80.000 COP con multiple
+         alloggi, cucina e bagni.
+    </string>
+    <string name="resenares1">
+ristorante 1
+    </string>
+    <string name="direccion1">Indirizzo: 1a strada, Santa Rosa de Osos </string>
+    <string name="resenares2">
+Restaurante 2
+    </string>
+    <string name="direccion2">Dirección: Calle 2, Santa Rosa de Osos </string>
+    <string name="opcion1">Inglese</string>
+    <string name="opcion2">spagnolo</string>
+    <string name="opcion3">Italiano</string>
+    <string name="opcion4">Di</string>
+</resources>
