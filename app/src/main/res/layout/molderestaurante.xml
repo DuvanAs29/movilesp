@@ -58,7 +58,7 @@
 
         />
     <TextView
-        android:id="@+id/cpr11res"
+        android:id="@+id/pr11res"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/contacto11res"
