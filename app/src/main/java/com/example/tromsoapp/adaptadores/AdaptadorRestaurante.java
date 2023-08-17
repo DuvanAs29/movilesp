@@ -33,7 +33,7 @@ public class AdaptadorRestaurante extends RecyclerView.Adapter<AdaptadorRestaura
     }
 
     @Override
-    public void onBindViewHolder(@NonNull AdaptadorHotel.viewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull AdaptadorRestaurante.viewHolder holder, int position) {
 
         holder.actualizarDatos(lista_Restaurante.get(position));
 
