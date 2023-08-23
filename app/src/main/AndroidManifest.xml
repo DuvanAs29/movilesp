@@ -13,7 +13,14 @@
         android:theme="@style/Theme.AppCompat"
         tools:targetApi="31">
         <activity
-            android:name=".LIstaSitioTuristicos"
+            android:name=".ListaTurismo"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ListaRestauntante"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
