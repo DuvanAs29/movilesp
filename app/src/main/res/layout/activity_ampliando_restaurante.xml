@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<androidx.cardview.widget.CardView
-    android:layout_width="match_parent"
-    app:cardCornerRadius="20dp"
-    android:layout_height="wrap_content"
-    app:cardElevation="5dp"
-
-    app:cardUseCompatPadding="true"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    tools:context=".AmpliandoRestaurante">
     <ImageView
-        android:id="@+id/hotel11"
+        android:id="@+id/hotel11am"
         android:layout_width="match_parent"
         android:layout_height="400dp"
         app:layout_constraintTop_toTopOf="parent"
@@ -27,10 +18,10 @@
         app:layout_constraintVertical_bias="0"
         />
     <TextView
-        android:id="@+id/titulohotel11"
+        android:id="@+id/titulohotel11am"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/hotel11"
+        app:layout_constraintTop_toBottomOf="@id/hotel11am"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -41,10 +32,10 @@
         android:textStyle="bold"
         />
     <TextView
-        android:id="@+id/precio11"
+        android:id="@+id/precio11am"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/titulohotel11"
+        app:layout_constraintTop_toBottomOf="@id/titulohotel11am"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -54,11 +45,11 @@
         android:textSize="28dp"
         />
     <TextView
-        android:id="@+id/contacto11"
+        android:id="@+id/contacto11am"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/titulohotel11"
-        app:layout_constraintStart_toEndOf="@id/precio11"
+        app:layout_constraintTop_toBottomOf="@id/titulohotel11am"
+        app:layout_constraintStart_toEndOf="@id/precio11am"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:text="Contacto:"
@@ -69,7 +60,7 @@
         />
 
     <TextView
-        android:id="@+id/telefono11"
+        android:id="@+id/telefono11am"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="3540454545"
@@ -77,13 +68,23 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.01"
-        app:layout_constraintStart_toEndOf="@id/contacto11"
-        app:layout_constraintTop_toBottomOf="@id/titulohotel11"
+        app:layout_constraintStart_toEndOf="@id/contacto11am"
+        app:layout_constraintTop_toBottomOf="@id/titulohotel11am"
         app:layout_constraintVertical_bias="0.1"
 
         />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/telefono11am"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="RESERVAR"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        />
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-</androidx.cardview.widget.CardView>
-
+</android.support.constraint.ConstraintLayout>
