@@ -1,6 +1,8 @@
 package com.example.tromsoapp.moldes;
 
-public class MoldeHotel {
+import java.io.Serializable;
+
+public class MoldeHotel implements Serializable {
   private   String nombre1;
   private String precio;
   private String telefono;
