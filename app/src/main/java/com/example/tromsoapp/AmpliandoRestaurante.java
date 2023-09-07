@@ -9,6 +9,7 @@ import com.example.tromsoapp.moldes.MoldeRestaurante;
 public class AmpliandoRestaurante extends AppCompatActivity {
 
     MoldeRestaurante moldeRestaurante;
+    I
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
