@@ -3,39 +3,35 @@ package com.example.tromsoapp.moldes;
 import java.io.Serializable;
 
 public class MoldeHotel implements Serializable {
-  private   String nombre1;
-  private String precio;
-  private String telefono;
-  private Integer foto;
-  private String descripcion;
-  private Integer fotoAdicional;
+    private Integer foto;
+    private String nombre1;
+
+    private String descripcion;
+
+    private String precio;
+
+    private String contacto;
+    private String telefono;
+
 
     public MoldeHotel() {
     }
 
-    public MoldeHotel(String nombre1, String precio, String telefono, Integer foto, String descripcion, Integer fotoAdicional) {
-        this.nombre1 = nombre1;
-        this.precio = precio;
-        this.telefono = telefono;
+    public MoldeHotel(Integer foto, String nombre1, String descripcion, String precio, String contacto, String telefono) {
         this.foto = foto;
+        this.nombre1 = nombre1;
         this.descripcion = descripcion;
-        this.fotoAdicional = fotoAdicional;
+        this.precio = precio;
+        this.contacto = contacto;
+        this.telefono = telefono;
     }
 
-    public String getDescripcion() {
-        return descripcion;
+    public Integer getFoto() {
+        return foto;
     }
 
-    public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
-    }
-
-    public Integer getFotoAdicional() {
-        return fotoAdicional;
-    }
-
-    public void setFotoAdicional(Integer fotoAdicional) {
-        this.fotoAdicional = fotoAdicional;
+    public void setFoto(Integer foto) {
+        this.foto = foto;
     }
 
     public String getNombre1() {
@@ -46,6 +42,14 @@ public class MoldeHotel implements Serializable {
         this.nombre1 = nombre1;
     }
 
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
     public String getPrecio() {
         return precio;
     }
@@ -54,19 +58,19 @@ public class MoldeHotel implements Serializable {
         this.precio = precio;
     }
 
+    public String getContacto() {
+        return contacto;
+    }
+
+    public void setContacto(String contacto) {
+        this.contacto = contacto;
+    }
+
     public String getTelefono() {
         return telefono;
     }
 
     public void setTelefono(String telefono) {
         this.telefono = telefono;
-    }
-
-    public Integer getFoto() {
-        return foto;
-    }
-
-    public void setFoto(Integer foto) {
-        this.foto = foto;
     }
 }

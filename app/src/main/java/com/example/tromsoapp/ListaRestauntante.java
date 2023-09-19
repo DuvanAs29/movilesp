@@ -29,11 +29,9 @@ public class ListaRestauntante extends AppCompatActivity {
     }
     public void llenarLIstaConDatosr(){
 
-        lista_Restaurante.add(new MoldeRestaurante("Restaurante1", R.drawable.res1,"Rango De precio ($15000-50000)","Telefono:3220585650","Plato Recomendado:Chorizo"));
-        lista_Restaurante.add(new MoldeRestaurante("Restaurante1", R.drawable.res2,"Rango De precio ($15000-50000)","Telefono:3220585650","Plato Recomendado:Chorizo"));
-        lista_Restaurante.add(new MoldeRestaurante("Restaurante1", R.drawable.res3,"Rango De precio ($15000-50000)","Telefono:3220585650","Plato Recomendado:Chorizo"));
-
-
+        lista_Restaurante.add(new MoldeRestaurante(R.drawable.res1, "Rest1", "1000", "2343534", "aaaa","ssdsd"));
+        lista_Restaurante.add(new MoldeRestaurante(R.drawable.res2, "Rest2", "2000", "234353222", "aaaa2","ssdsd2"));
+        lista_Restaurante.add(new MoldeRestaurante(R.drawable.res3, "Rest3", "3000", "2343534333", "aaaa3","ssdsd3"));
 
     }
 }

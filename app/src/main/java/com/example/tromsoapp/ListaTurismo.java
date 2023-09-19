@@ -30,9 +30,9 @@ public class ListaTurismo extends AppCompatActivity {
         recyclerView.setAdapter(adaptadoresTurismo);
     }
     public void llenarLIstaConDatost(){
-        lista_Turismo.add(new MoldeTurismo("Plaza Simon Bolivar","gratis" ,"Contacto: Nombre De Persona","Telefono:3220585650",R.drawable.cuadrado));
-        lista_Turismo.add(new MoldeTurismo("Plaza Simon Bolivar","gratis" ,"Contacto: Nombre De Persona","Telefono:3220585650",R.drawable.catedral));
-        lista_Turismo.add(new MoldeTurismo("Plaza Simon Bolivar","gratis" ,"Contacto: Nombre De Persona","Telefono:3220585650",R.drawable.parque));
+        lista_Turismo.add(new MoldeTurismo("Plaza Simon Bolivar1",R.drawable.cuadrado ,"Contacto: Nombre De Persona1","1212212", "1111111"));
+        lista_Turismo.add(new MoldeTurismo("Plaza Simon Bolivar2",R.drawable.catedral ,"Contacto: Nombre De Persona2","23232323", "22222222"));
+        lista_Turismo.add(new MoldeTurismo("Plaza Simon Bolivar3",R.drawable.parque ,"Contacto: Nombre De Persona3","3434343434", "3333333"));
 
     }
 }

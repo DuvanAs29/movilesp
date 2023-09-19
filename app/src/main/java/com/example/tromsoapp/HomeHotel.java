@@ -29,9 +29,9 @@ public class HomeHotel extends AppCompatActivity {
 
     }
     public void llenarLIstaConDatos(){
-        lista_hotel.add(new MoldeHotel("Hotel La Patasola", "300.000", "3545214151",R.drawable.hotel1,"tu no metes cabra",R.drawable.pueblo));
-        lista_hotel.add(new MoldeHotel("Hotel La Patasola", "300.000", "3545214151",R.drawable.hotel1,"tu no metes cabra",R.drawable.pueblo));
-        lista_hotel.add(new MoldeHotel("Hotel La Patasola", "300.000", "3545214151",R.drawable.hotel1,"tu no metes cabra",R.drawable.pueblo));
+        lista_hotel.add(new MoldeHotel(R.drawable.hotel1, "Hotel la Patasola", "Tu no metes cabra","100","aaaaa","12354634"));
+        lista_hotel.add(new MoldeHotel(R.drawable.hotel2, "Hotel la Patasola2", "Tu no metes cabra2","1002","aaaaa2","123546342"));
+
 
     }
 

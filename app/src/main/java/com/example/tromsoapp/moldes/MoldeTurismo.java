@@ -4,21 +4,22 @@ import java.io.Serializable;
 
 public class MoldeTurismo implements Serializable {
 
-    private  String nombre;
-    private  String contacto;
+    private String nombre;
+    private Integer foto;
+    private String contacto;
     private String telefono;
     private String precio;
-    private Integer foto;
+
 
     public MoldeTurismo() {
     }
 
-    public MoldeTurismo(String nombre, String contacto, String telefono, String precio, Integer foto) {
+    public MoldeTurismo(String nombre, Integer foto, String contacto, String telefono, String precio) {
         this.nombre = nombre;
+        this.foto = foto;
         this.contacto = contacto;
         this.telefono = telefono;
         this.precio = precio;
-        this.foto = foto;
     }
 
     public String getNombre() {
@@ -27,6 +28,14 @@ public class MoldeTurismo implements Serializable {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public Integer getFoto() {
+        return foto;
+    }
+
+    public void setFoto(Integer foto) {
+        this.foto = foto;
     }
 
     public String getContacto() {
@@ -51,13 +60,5 @@ public class MoldeTurismo implements Serializable {
 
     public void setPrecio(String precio) {
         this.precio = precio;
-    }
-
-    public Integer getFoto() {
-        return foto;
-    }
-
-    public void setFoto(Integer foto) {
-        this.foto = foto;
     }
 }
