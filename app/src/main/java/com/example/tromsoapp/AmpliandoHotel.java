@@ -20,7 +20,7 @@ public class AmpliandoHotel extends AppCompatActivity {
         setContentView(R.layout.activity_ampliando_hotel);
 
         fotoAmpliandoHotel=findViewById(R.id.hotel11);
-        descripcionAmpliendoHotel=findViewById(R.id.precio11);
+        descripcionAmpliendoHotel=findViewById(R.id.descrp11);
 
         moldeHotel = (MoldeHotel) getIntent().getSerializableExtra("datoshotel");
         //cargando la info en los componentes  graficos

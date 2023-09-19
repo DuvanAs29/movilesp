@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/img"
     tools:context=".AmpliandoRestaurante">
     <ImageView
         android:id="@+id/r11am"
@@ -27,7 +28,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:text="Restaurante 1"
         app:layout_constraintVertical_bias="0.1"
-        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintHorizontal_bias="0.5"
         android:textSize="26dp"
         android:textStyle="bold"
         />
