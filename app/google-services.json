@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "103567951005",
+    "project_id": "turistiandodap",
+    "storage_bucket": "turistiandodap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103567951005:android:63ade3ccb7e8f8dd1ac074",
+        "android_client_info": {
+          "package_name": "com.example.tromsoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD48bWd7uRI6Vf3q2P1VEvzYXe4egwXEb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
