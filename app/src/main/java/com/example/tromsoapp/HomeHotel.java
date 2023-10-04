@@ -43,7 +43,15 @@ public class HomeHotel extends AppCompatActivity {
 
                                 String nombreHotel= document.getString("nombre");
                                 String precioHotel= document.getString("precio");
+                                String contactoHotel=document.getString("contacto");
+                                String descripcionHotel=document.getString("descripcion");
+
+
+
                                 Toast.makeText(HomeHotel.this, nombreHotel, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(HomeHotel.this, precioHotel, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(HomeHotel.this, contactoHotel, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(HomeHotel.this, descripcionHotel, Toast.LENGTH_SHORT).show();
                             }
                         } else {
 
@@ -61,6 +69,8 @@ public class HomeHotel extends AppCompatActivity {
     public void llenarLIstaConDatos(){
         lista_hotel.add(new MoldeHotel(R.drawable.hotel1, "Hotel la Patasola", "Tu no metes cabra","100","aaaaa","12354634"));
         lista_hotel.add(new MoldeHotel(R.drawable.hotel2, "Hotel la Patasola2", "Tu no metes cabra2","1002","aaaaa2","123546342"));
+        lista_hotel.add(new MoldeHotel(R.drawable.hotel3, "Hotel la Patasola2", "Tu no metes cabra2","1002","aaaaa2","123546342"));
+
 
 
     }

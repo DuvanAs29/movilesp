@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/img"
     tools:context=".AmpliandoTurismo">
+
     <TextView
         android:id="@+id/titulotu11"
         android:layout_width="0dp"
@@ -14,19 +15,19 @@
         android:text="Plaza Simon Bolivar"
         android:textSize="26dp"
         android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/tu11"
-        app:layout_constraintVertical_bias="0"
-        app:layout_constraintHorizontal_bias="0.1" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0" />
 
     <ImageView
         android:id="@+id/tu11"
-        android:layout_width="216dp"
+        android:layout_width="350dp"
         android:layout_height="256dp"
         android:scaleType="fitXY"
-        android:src="@drawable/cuadrado"
+        android:src="@drawable/plazabolivar"
         app:layout_constraintTop_toBottomOf="@+id/titulotu11"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
